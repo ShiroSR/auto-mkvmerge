@@ -1,0 +1,21 @@
+{
+    "input": {
+        "first": {
+            "path": "./input/1/path/",
+            "name": "input 1 episode name - %e"
+        },
+        "second": {
+            "path": "./input/2/path/",
+            "name": "input 2 episode name - %e"
+        }
+    },
+    "output": {
+        "path": "./output/path/",
+        "name": "output episode name - %e.mkv"
+    },
+    "settings": {
+        "episodes": "12",
+        "first": "1",
+        "params": "--title %t -o, input 1 params, input 2 params"
+    }
+}
